@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Asana Guessing Game</title>
-    <link rel="stylesheet" type="text/css" href="asanaGuessGame.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caprice Sola</title>
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Roberto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
-    <h1>Guess the
-        <br>
-        <span>Asana</span>
-        <br>
-        <span id="asanaDisplay"></span>
-    </h1>
-    <div id="stripe">
-        <button id="reset">New Asanas</button>
-        <span id="message"></span>
-        <button id="easyBtn">Easy</button>
-        <button id="hardBtn">Hard</button>
-    </div>
+    <head>
+    <!-- // Intro -->
+        <div id="theSidenav" class="sidenav">
+            <ul>
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutme.html">About</a></li>
+              <li><a href="asanaGuessingGame.html">Yoga Pose Guessing Game</a></li>
+              <li><a href="resumeCV.html">Resume</a></li>
+              <li><a href="photography.html">Photography</a></li>
+<!--              <li><a href="#">Contact</a></li>-->
+            </ul>
+        </div>
+    
+        <span onclick="openNav()">&#9776;</span>
+    </head>
+    
+    <header>
+        <div class="content-wrap">
+            <div class="profile-img-wrap col-narrow">
+               <img class="profile-img" src="images/Caprice-5-edit.jpg" width="300" alt="Caprice Sola">
+            </div>
+            <div class="col-wide">
+                <h1>Caprice Sola</h1>
+                <h2>Yoga Instructor + Climbing Enthousiast</h2>
+                <p>Dedicated Ashtanga yoga and Climber's yoga instructor, currently learning the ropes of web development.</p>
+            </div>
+        </div>
+    </header>
 
+    <!-- // Footer & contact info -->
+    <footer>
+        <div class="content-wrap">
+<!--        <h2>Let's Keep in Touch!</h2>-->
+        
+        <!-- Social media and contact links-->
+        <div class="contact-info">
+            <!-- <input type="email" placeholder="Your email">
+            <input type="submit"> -->
+            <a href="mailto:caprice.sola@gmail.com" class="fa fa-google"></a>
+<!--            <a href="caprice.sola@gmail.com"></a>-->
+            <a href="https://www.instagram.com/capricesola/" class="fa fa-instagram"></a>
+<!--            <a href="https://www.instagram.com/capricesola/" target="_blank">Instagram</a>-->
+            <a href="https://www.linkedin.com/in/caprice-sola-11275a49" class="fa fa-linkedin"></a>
+<!--            <a href="https://www.linkedin.com/in/caprice-sola-11275a49" target="_blank">LinkedIn</a>-->
+        </div>
 
-    <div id="container">
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-    </div>
-
-    <script type="text/javascript" src="asanaPicturesArray.js"></script>
-    <script type="text/javascript" src="asanaGuessingGame.js"></script>
+<!--        <p>Copyright 2017 by C.A.S.</p>-->
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>

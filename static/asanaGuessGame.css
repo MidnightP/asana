@@ -44,6 +44,10 @@ h1 {
     -moz-transition: background 0.5s;
 }
 
+.square.hidden {
+    display: none;
+}
+
 button {
     height: 100%;
     border: none;
