@@ -1,0 +1,17 @@
+{
+  "name": "asana-guessing-game",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "PORT=5000 node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MidnightP/asana-guessing-game.git"
+  },
+  "author": "Caprice Sola",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
