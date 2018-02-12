@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caprice Sola | Resume</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Roberto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
 </head>
-<body>
-    <!-- // Intro -->
-        <div id="theSidenav" class="sidenav">
-            <ul>
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="aboutme.html">About</a></li>
-              <li><a href="asanaGuessingGame.html">Yoga Pose Guessing Game</a></li>
-              <li><a href="resumeCV.html">Resume</a></li>
-              <li><a href="photography.html">Photography</a></li>
-<!--              <li><a href="#">Contact</a></li>-->
-            </ul>
-        </div>
-    
-        <span onclick="openNav()">&#9776;</span>
-
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    C.A.S.
+                </div>
+                <div class="menu">
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="aboutme.html">About</a></li>
+                      <li><a href="asanaGuessingGame.html">Yoga Game</a></li>
+                      <li><a href="resumeCV.html">Resume</a></li>
+                      <li><a href="photography.html">Photography</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+    </div>
 <!--
     <header>
         <div class="content-wrap">
@@ -38,7 +46,7 @@
         </div>
     </header>
 -->
-
+<body>
     <main> 
         <!-- // Work Experience -->
         <section class="work">
@@ -207,7 +215,7 @@
         <div class="contact-info">
             <!-- <input type="email" placeholder="Your email">
             <input type="submit"> -->
-            <a href="mailto:caprice.sola@gmail.com" class="fa fa-google"></a>
+            <a href="mailto:caprice.sola@gmail.com" class="fa fa-envelope-o"></a>
 <!--            <a href="caprice.sola@gmail.com"></a>-->
             <a href="https://www.instagram.com/capricesola/" class="fa fa-instagram"></a>
 <!--            <a href="https://www.instagram.com/capricesola/" target="_blank">Instagram</a>-->
@@ -217,6 +225,7 @@
             
         </div>
     </footer>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="navbar.js"></script>
 </body>
 </html>

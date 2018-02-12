@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caprice Sola</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Roberto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
 </head>
 <body>
-    <head>
-    <!-- // Intro -->
-        <div id="theSidenav" class="sidenav">
-            <ul>
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="aboutme.html">About</a></li>
-              <li><a href="asanaGuessingGame.html">Yoga Pose Guessing Game</a></li>
-              <li><a href="resumeCV.html">Resume</a></li>
-              <li><a href="photography.html">Photography</a></li>
-<!--              <li><a href="#">Contact</a></li>-->
-            </ul>
-        </div>
-    
-        <span onclick="openNav()">&#9776;</span>
-    </head>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo" style="color:white">
+                    C.A.S.
+                </div>
+                <div class="menu">
+                    <ul>
+                      <li class="homepage"><a href="index.html" style="color:white">Home</a></li>
+                      <li><a href="aboutme.html" style="color:white">About</a></li>
+                      <li><a href="asanaGuessingGame.html" style="color:white">Yoga Game</a></li>
+                      <li><a href="resumeCV.html" style="color:white">Resume</a></li>
+                      <li><a href="photography.html" style="color:white">Photography</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
     
     <header>
         <div class="content-wrap">
@@ -48,7 +55,7 @@
         <div class="contact-info">
             <!-- <input type="email" placeholder="Your email">
             <input type="submit"> -->
-            <a href="mailto:caprice.sola@gmail.com" class="fa fa-google"></a>
+            <a href="mailto:caprice.sola@gmail.com" class="fa fa-envelope-o"></a>
 <!--            <a href="caprice.sola@gmail.com"></a>-->
             <a href="https://www.instagram.com/capricesola/" class="fa fa-instagram"></a>
 <!--            <a href="https://www.instagram.com/capricesola/" target="_blank">Instagram</a>-->
@@ -59,6 +66,7 @@
 <!--        <p>Copyright 2017 by C.A.S.</p>-->
         </div>
     </footer>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="navbar.js"></script>
 </body>
 </html>

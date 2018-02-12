@@ -5,126 +5,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caprice Sola | Photography</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.min.css">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Roberto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-
+    <link rel="stylesheet" type="text/css" href="navbar.css">
 </head>
-    <div id="theSidenav" class="sidenav">
-            <ul>
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="aboutme.html">About</a></li>
-              <li><a href="asanaGuessingGame.html">Yoga Pose Guessing Game</a></li>
-              <li><a href="resumeCV.html">Resume</a></li>
-              <li><a href="photography.html">Photography</a></li>
-<!--              <li><a href="#">Contact</a></li>-->
-            </ul>
-        </div>
-        <span onclick="openNav()">&#9776;</span>
-
 <body>
-
-<!-- Header -->
+    
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    C.A.S.
+                </div>
+                <div class="menu">
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="aboutme.html">About</a></li>
+                      <li><a href="asanaGuessingGame.html">Yoga Game</a></li>
+                      <li><a href="resumeCV.html">Resume</a></li>
+                      <li><a href="photography.html">Photography</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+    </div>
+    
+    <!-- Header -->
 <div class="photography-header">
   <h1>Photography</h1>
   <p>Photos taken on my adventures around the world.</p>
 </div>
-    
-<!-- Images used to open the lightbox -->
-    <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/8471_10151984280533502_658712323_n.jpg?oh=35e4c8b6fe81185bb8b66a91528cec17&oe=5AFBBD53">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/1005974_10151984208963502_261868442_n.jpg?oh=117db7f054c0b16d14aac730c5363117&oe=5B1E801D">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/424403_10151648585343502_740967162_n.jpg?oh=385be065f913f18aa9fff03c78a9b95a&oe=5AE2598A">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/188565_10151513913258502_462670911_n.jpg?oh=e7ae787fbcf475a2885dfee1922b0c59&oe=5ADF9DA3">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/1011938_10151984281988502_729636861_n.jpg?oh=d797d4443ac056cb769bda6415045556&oe=5AE53FAD">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/1005400_10151984231473502_304213783_n.jpg?oh=c783b5e0a5d9344336842a4fc07c9249&oe=5AEEC8EA">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/946367_10152147910598502_1249420621_n.jpg?oh=5997983630d66f5dc4f0fc269658589d&oe=5AE381D6">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/1044514_10152030977863502_885555766_n.jpg?oh=4e3e790fc87d1d76d4ed332bda301ebb&oe=5AECB006">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/523135_10151648634258502_727593471_n.jpg?oh=07b0628d9b9d9f86049036254c2f82d7&oe=5B20EC64">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/554439_10151648628268502_1625518474_n.jpg?oh=a6395c1812647fc46a82e4658b656923&oe=5AE35756">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/936403_10151984207693502_851230631_n.jpg?oh=b61c1516d98208bbd2c541c479d42e59&oe=5AE2CCD0">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/1148987_10152147906743502_871840466_n.jpg?oh=0335c4605672ba610f590ec0bce23538&oe=5AD83E13">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/999537_10151964020168502_1693137845_n.jpg?oh=a49a22b91e4c3d6520c8fe27f8e6d090&oe=5B240B13">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/148593_10150115500203502_5285051_n.jpg?oh=cb727f52aa1d9a6bc79772756114f2c7&oe=5AE327B5">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/998395_10151964062013502_1072198114_n.jpg?oh=a1885fde6f389e100006eae586cfb0d7&oe=5ADA4C9E">
-                    </div>
-                </div>
-            </div>
-        </div>
+ 
+            <div class="container gallery-container">
+            
+                <div class="row">
 
-    <!-- // Footer & contact info -->
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="thumbnail">
+                             <a href="images/jaipurDoor.jpg" data-lightbox="image-1" data-title="Door at Amber Fort - Jaipur, India"><img src="images/jaipurDoor.jpg"></a>
+                            </div>
+                        </div>
+             
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="thumbnail">
+                                <a href="images/tajWallDetail.jpg" data-lightbox="image-1" data-title="Wall Detail at the Taj Mahal - Agra, India"><img src="images/tajWallDetail.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="thumbnail">
+                                <a href="images/shipKlaeng.jpeg" data-lightbox="image-1" data-title="Old War Ship - Klaeng, Thailand"><img src="images/shipKlaeng.jpeg"></a>
+                            </div>
+                        </div>
+
+                 
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="thumbnail">
+                                <a href="images/whiteTempleThai.jpeg" data-lightbox="image-1" data-title="White Temple Detail - Chiang Mai, Thailand"><img src="images/whiteTempleThai.jpeg"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="thumbnail">
+                                <a href="images/windowJaipurFort.jpg" data-lightbox="image-1" data-title="Window Inception - Jaipur, India"><img src="images/windowJaipurFort.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="thumbnail">
+                                <a href="images/motherChildJodhpur.jpg" data-lightbox="image-1" data-title="Mother and Child Against Blue Wall - Jodhpur, India"><img src="images/motherChildJodhpur.jpg"></a>
+                            </div>
+                        </div>
+                 
+                 
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="thumbnail">
+                                <a href="images/templeKyoto.jpg" data-lightbox="image-1" data-title="Fortunes Tied to Strings in Temple - Kyoto, Japan"><img src="images/templeKyoto.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="thumbnail">
+                                <a href="images/greatWall.jpg" data-lightbox="image-1" data-title="The Great Wall at Jinshanling - China"><img src="images/greatWall.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="thumbnail">
+                                <a href="images/incenseChaingMai.jpg" data-lightbox="image-1" data-title="Buring Incense for the New Year - Chiang Mai, Thailand"><img src="images/incenseChaingMai.jpg"></a>
+                            </div>
+                        </div>
+                   
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="thumbnail">
+                                <a href="images/dragonTempleChiang.jpg" data-lightbox="image-1" data-title="Details of a Temple - Chiang Mai, Thailand"><img src="images/dragonTempleChiang.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="thumbnail">
+                                <a href="images/lanternsKyoto.jpg" data-lightbox="image-1" data-title="Lanterns at Fushimi Inari Shrine - Kyoto, Japan"><img src="images/lanternsKyoto.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                           <div class="thumbnail">
+                                <a href="images/boatMekongDelta.jpg" data-lightbox="image-1" data-title="Touring the Mekong Delta by Boat - Vietnam"><img src="images/boatMekongDelta.jpg"></a>
+                            </div>
+                        </div>
+         
+                        <div class="col-lg-4 col-sm-6">
+                           <div class="thumbnail">
+                                <a href="images/spanishBullring.jpg" data-lightbox="image-1" data-title="Bull Ring - Sevilla, Spain"><img src="images/spanishBullring.jpg"></a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-lg-4 col-sm-6">
+                           <div class="thumbnail">
+                                <a href="images/housesLaos.jpg" data-lightbox="image-1" data-title="Homes in Laos - Luang Prabang, Laos"><img src="images/housesLaos.jpg"></a>
+                            </div>
+                        </div>
+                    
+  
+                </div>
+  
+            </div>
+    
+                    
+<!-- // Footer & contact info -->
     <footer>
         <div class="content-wrap">
 
         <div class="contact-info">
-            <a href="mailto:caprice.sola@gmail.com" class="fa fa-google"></a>
+            <a href="mailto:caprice.sola@gmail.com" class="fa fa-envelope-o"></a>
             <a href="https://www.instagram.com/capricesola/" class="fa fa-instagram"></a>
             <a href="https://www.linkedin.com/in/caprice-sola-11275a49" class="fa fa-linkedin"></a>
         </div>
 
         </div>
     </footer>
-    <script src= "script.js"></script>
-</body>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="navbar.js"></script>
+        <script src="lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
+    </body>
 </html>
